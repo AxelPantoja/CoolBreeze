@@ -9,6 +9,9 @@ namespace CoolBreeze
 {
     public partial class App : Application
     {
+        public static MainViewModel ViewModel;
+        public static string RegistrationCode = "XBWW6A53BF34BDB3C81912E47D609B0F";
+
         public App()
         {
             InitializeComponent();
